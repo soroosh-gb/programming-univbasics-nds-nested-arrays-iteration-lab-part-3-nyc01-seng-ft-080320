@@ -9,7 +9,7 @@
     while i < src.count do
       element = 0 
       while element < src[i].count do
-        if src[i][element] == String
+        if (src[i][element]).class == String
           final_string += src[i][element]
           final_string += " "
         end
